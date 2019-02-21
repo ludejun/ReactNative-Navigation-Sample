@@ -18,7 +18,7 @@ export default class Profile extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to Profile!</Text>
-        <Button title="Go To Home" onPress={() => this.props.navigation.navigate('Home')}></Button>
+        <Button title="Go To Home" onPress={() => this.props.navigation.navigate('Home')} />
       </View>
     );
   }
